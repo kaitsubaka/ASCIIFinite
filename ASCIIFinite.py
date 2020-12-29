@@ -24,7 +24,7 @@ def transform(img, asciiToNum):
 
 def setupAsciiMapping():
 	asciiToNum = {}
-	characterSet = list('  ..,,::;;ii11ttffLL;;::00ii11ttL')
+	characterSet = list('  ..,,::;;ii11ttffLL;;0000ii11ttL')
 	for i in range(26):
 		for j in range(10):
 			asciiToNum[i*10+j] = characterSet[i]
